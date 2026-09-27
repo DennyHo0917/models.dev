@@ -1,11 +1,10 @@
-# Pricing and availability: https://www.api-route.com/pricing (accessed 2026-09-18)
+# Pricing and availability: https://www.api-route.com/pricing/deepseek-v4-pro (accessed 2026-09-27)
 # DeepSeek wire path: thinking.type = enabled|disabled (toggle).
 # Effort wire path: reasoning_effort = high|max.
 base_model = "deepseek/deepseek-v4-pro"
 reasoning_options = [{ type = "toggle" }, { type = "effort", values = ["high", "max"] }]
 
 [cost]
-input = 0.882353
-output = 1.7647
-cache_read = 0.007353
-cache_write = 0
+input = 0.426389
+output = 1.2792
+cache_read = 0.014213
